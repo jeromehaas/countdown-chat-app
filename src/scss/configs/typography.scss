@@ -1,0 +1,26 @@
+* {
+    font-size: 10px;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+}
+
+.message__text {
+    font-size: 20px;
+}
+
+.countdown__title {
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.messages__controls .controls__input {
+    font-size: 16px;
+}
+
+@media (max-width: 550px) {
+
+    .countdown__title {
+        font-size: 16px;
+    }
+
+}

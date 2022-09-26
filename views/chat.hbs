@@ -1,0 +1,18 @@
+<section class="chat js-chat">
+    <div class="chat__inner">
+        <div class="chat__container container">
+            {{#each messages}}
+                <div class="container__item message">
+                    <p class="message__text">{{ this }}</p>
+                </div>
+            {{/each}}
+        </div>
+        <div class="chat__controls controls">
+            <form class="controls__form">
+                <input class="controls__input" type="text" placeholder="Share your thoughts!"> 
+                <input class="controls__button" type="submit" value=""> 
+            </form>
+        </div>
+
+    </div>
+</section>

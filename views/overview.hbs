@@ -1,0 +1,44 @@
+<section class="overview js-overview">
+    <div class="overview__inner">
+        <div class="overview__timer timer">
+           <div class="timer__inner">
+                <div class="timer__visual countdown">
+                    <h1 class="countdown__title">2K23</h1>
+                    <div class="countdown__ring ring--days">
+                        <div class="ring__inner">
+                            <div class="ring__dot"></div>
+                        </div>
+                    </div>
+                    <div class="countdown__ring ring--hours">
+                        <div class="ring__inner">
+                            <div class="ring__dot"></div>
+                        </div>
+                    </div>
+                    <div class="countdown__ring ring--minutes">
+                        <div class="ring__inner">
+                            <div class="ring__dot"></div>
+                        </div>
+                    </div>
+                    <div class="countdown__ring ring--seconds">
+                        <div class="ring__inner">
+                            <div class="ring__dot"></div>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </div>
+        <div class="overview__messages messages">
+            <div class="messages__inner">
+                <canvas class="messages__qr-code qr-code"></canvas>
+                <div class="messages__container">
+                    {{#each messages}}
+                        <div class="messages__item message">
+                            <p class="message__text">{{ this }}</p>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
